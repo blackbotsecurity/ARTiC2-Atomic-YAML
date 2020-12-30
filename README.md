@@ -1,17 +1,21 @@
 ## ARTiC2 ATOMIC YAML
 
-ARTiC2 Atomic YAML is a a collection of red team atomic test YAMLs forked from [@redcanaryco](https://github.com/redcanaryco) and are used by ARTiC2 to dynamically extract, build, and execute ARTiC2 instructions. All techniques are executed from memory and mapped to the [MITRE ATT&CK Framework](https://attack.blackbot.io). 
+ARTiC2 Atomic YAML is a collection of Atomic YAML instructions and technique dependencies forked from [@redcanaryco](https://github.com/redcanaryco). ARTiC2 uses them to dynamically extract, build, organize, and execute ARTiC2 instructions as fire-and-forget techniques. All techniques are executed from memory and mapped to the [MITRE ATT&CK Framework](https://attack.blackbot.io). 
 
 
 ## HOW THEY'RE USED
 
-For Atomic YAML
+**For each Atomic YAML**
 
 - ARTiC2 reads the YAML stored in each [atomics folder](https://github.com/blackbotinc/ARTiC2-Atomic-YAML/tree/master/atomics) 
 - Decides which C2 delivery controllers are required
 - Builds corresponding C2 instructions and PowerShell scripts
 - Organizes technique dependencies such as c# code, DLLs, binaries, etc.
-- Pushes new technique test cases to the [ARTiC2's TTP directory](https://github.com/blackbotinc/Atomic-Red-Team-Intelligence-C2/tree/master/blackbot/core/wss/ttp)
+- Pushes new technique test cases and corresponding dependencies to the [ARTiC2's TTP directory](https://github.com/blackbotinc/Atomic-Red-Team-Intelligence-C2/tree/master/blackbot/core/wss/ttp)
+
+**NOTE** In some cases, techniques and/or dependencies are modified to ensure evidence is collected ARTiC2. This allows security teams to quickly evaluate if the technique was blocked or not without the need to triage IOCs on the breach point in question.  
+
+**Check out the ARTiC2 Repo here.
 
 
 ## GOT QUESTIONS?
