@@ -13,9 +13,9 @@ ARTiC2 Atomic YAML is a collection of Atomic YAML instructions and technique dep
 - Organizes technique dependencies such as c# code, DLLs, binaries, etc.
 - Pushes new technique test cases and corresponding dependencies to the [ARTiC2's TTP directory](https://github.com/blackbotinc/Atomic-Red-Team-Intelligence-C2/tree/master/blackbot/core/wss/ttp)
 
-**NOTE** In some cases, techniques and/or dependencies are modified to ensure evidence is collected ARTiC2. This allows security teams to quickly evaluate if the technique was blocked or not without the need to triage IOCs on the breach point in question.  
+**NOTE** In some cases, techniques and/or dependencies are modified to ensure evidence is collected by ARTiC2 with the intent to make it easier for security teams to evaluate if techniques are blocked without the need to triage IOCs on the breach point in question.  
 
-**Check out the ARTiC2 Repo here.
+**Check out the ARTiC2 Repo** [here](https://github.com/blackbotinc/Atomic-Red-Team-Intelligence-C2)
 
 
 ## GOT QUESTIONS?
