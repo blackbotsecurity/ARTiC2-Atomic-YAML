@@ -1,19 +1,17 @@
-<p><img src="https://blackbot.io/wp-content/uploads/2020/12/artic2_atomics_logo_v2.png" width="700px" /></p>
+## ARTiC2 ATOMIC YAML
 
-## ARTiC2 ATOMICS
-
-ARTiC2 Atomics are red team atomic tests forked from [@redcanaryco](https://github.com/redcanaryco) and are used by ARTiC2 to dynamically extract and build C2 instructions and PowerShell versions of each atomic test from memory. All techniques are mapped to the [MITRE ATT&CK Framework](https://attack.blackbot.io). 
+ARTiC2 Atomic YAML is a a collection of red team atomic test YAMLs forked from [@redcanaryco](https://github.com/redcanaryco) and are used by ARTiC2 to dynamically extract, build, and execute ARTiC2 instructions. All techniques are executed from memory and mapped to the [MITRE ATT&CK Framework](https://attack.blackbot.io). 
 
 
 ## HOW THEY'RE USED
 
-For each atomic test case:
+For Atomic YAML
 
-- ARTiC2 reads the YAML files stored in each [atomics folder](https://github.com/blackbotinc/ARTiC2-Atomics/tree/master/atomics) 
+- ARTiC2 reads the YAML stored in each [atomics folder](https://github.com/blackbotinc/ARTiC2-Atomic-YAML/tree/master/atomics) 
 - Decides which C2 delivery controllers are required
 - Builds corresponding C2 instructions and PowerShell scripts
-- Organizes dependencies such as c# code, DLLs, binaries, etc. used by each test case
-- Pushes new test cases to the [ARTiC2's TTP directory](https://github.com/blackbotinc/Atomic-Red-Team-Intelligence-C2/tree/master/blackbot/core/wss/ttp)
+- Organizes technique dependencies such as c# code, DLLs, binaries, etc.
+- Pushes new technique test cases to the [ARTiC2's TTP directory](https://github.com/blackbotinc/Atomic-Red-Team-Intelligence-C2/tree/master/blackbot/core/wss/ttp)
 
 
 ## GOT QUESTIONS?
@@ -27,4 +25,4 @@ Blackbot Labs operates under the umbrella of full transparency while ensuring en
 
 
 ## LICENSE
-[MIT License](https://github.com/blackbotinc/artic2-atomics/blob/master/LICENSE)
+[MIT License](https://github.com/blackbotinc/ARTiC2-Atomic-YAML/blob/master/LICENSE)
