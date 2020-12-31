@@ -27,6 +27,11 @@ ARTiC2 Atomic YAML is a collection of Atomic YAML instructions and technique dep
 
 Blackbot Labs operates under the umbrella of full transparency while ensuring end-user privacy remains a top priority. For more details on how we operate with our community, visit our community [Code of Conduct page.](https://blackbot.io/code-of-conduct)
 
+## CREDITS & ACKNOWLEDGEMENTS
+- [byt3bl33d3r](https://github.com/byt3bl33d3r) from Black Hills Security 
+- The folks at [Red Canary](https://redcanary.com/) and everyone's code used to develop red team atomic test cases
+
 
 ## LICENSE
 [MIT License](https://github.com/blackbotinc/ARTiC2-Atomic-YAML/blob/master/LICENSE)
+
